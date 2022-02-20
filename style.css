@@ -1,0 +1,325 @@
+.flexible-container{
+    display: flex;
+    width:100%;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+img{
+    width:100px;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin:20px;
+    
+}
+.us{
+   width: 85px;
+   text-align: left;
+}
+nav li:hover{
+    background-color: whitesmoke;
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(3, 97, 151);
+    font-size: 20px;
+}
+nav >ul >li:hover>ul{
+    display: block;
+    color: blue;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: lightyellow;
+}
+.navbar{
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+    width: 63%;
+}
+.number{
+    width: 200px;
+    height: 30px;
+    padding-left: 40px;
+    padding-top: 35px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(0, 89, 255);
+}
+.number:hover{
+    text-decoration: underline;
+}
+.fle-con{
+    display: flex;
+    width: 100%;
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;;
+    
+}
+h1{
+    font-size: 35px;
+}
+.para{
+    font-size: 25px;
+    color: rgb(133, 142, 184);
+    font-weight: 700;
+}
+.omni{
+    width: 50%;
+}
+#video{
+    height: 300px;
+    width: 95%;
+}
+.ivr{
+    
+    width: 100%;
+    margin-left: 30px;  
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;;
+      
+}
+.half-width{
+    display: flex;
+    border-top: double;
+}
+.mission{
+    width: 33%;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: rgb(113, 124, 172);
+}
+.image{
+    width:110px;
+    height: 120px;
+}
+.heading{
+    color:black;
+    text-align: center;
+}
+.p{
+    font-size: 20px;
+    font-weight: 700;
+}
+.read{
+    color: blue;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.read:hover{
+    text-decoration: underline;
+}
+.container{
+    width:100%;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    margin-top: 40px;
+}
+.width{
+    width: 50%;
+    margin-left: 40px;
+}
+.com{
+    width: 100%;
+    height: 100%;
+}
+.p-com{
+    
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 60px;
+}
+.heading-2{
+    padding-left: 60px;
+}
+.crm-p{
+    color: rgb(113, 124, 172);
+    font-size: 22px;
+    font-weight: 700;
+    
+}
+.CRM{
+    display: flex;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+.crm{
+    width: 50%;
+}
+#img{
+    width: 90%;
+    height: 500px;
+    margin-top: 60px;
+}
+#feature{
+    color: black;
+    padding-left: 70px;
+    font-size: 22px;
+}
+#feature-2{
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(113, 124, 172);
+    padding-left: 70px;
+}
+.customer-rm{
+    display: flex;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    margin-left: 40px;
+}
+.girl{
+    width: 40%;
+    margin-top: 50px;
+    
+}
+.width-girl{
+    width: 60%;
+}
+#girl-img{
+    width: 480px;
+    height: 300px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+.crm-heading{
+    
+}
+#crm-para{
+  font-size: 20px;
+  color: rgb(113, 124, 172);
+  font-weight: 700;
+
+}
+.latest-work{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+.late-work{
+    text-align: center;
+}
+.work-heading{
+    font-size: 48px;
+    font-weight: 800;
+}
+.link>a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 200;
+    color: rgb(113, 124, 172);
+}
+.link>a:hover{
+    background-color: rgb(0, 60, 255);
+    color: white;
+    border-radius: 12px;
+    padding: 5px;
+}
+.span>a{
+    text-decoration: none;
+    color: rgb(113, 124, 172);
+    font-size: 16px;
+    font-weight: 700;
+}
+span>a:hover{
+    color: white;
+}
+span:hover{
+    background-color: rgb(0, 60, 255);
+    color: white;
+    border-radius: 12px;
+    padding: 5px;
+}
+.client-web{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 17px;
+    margin-left: 40px;
+}
+.clients{
+    width: 25%;
+}
+.clients img{
+    width: 200px;
+    height: 190px;
+}
+.footer-area{
+    display: flex;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    height: 400px;
+    margin-top: 150px;
+}
+.footer{
+    width: 33%;
+    text-align: center;
+}
+.footer-logo{
+    width: 150px;
+    height: 60px;
+}
+.facebook{
+    width: 40px;
+    height: 22px;
+}
+.twitter{
+    width: 25px;
+    height: 21px;
+}
+.linkedin{
+    width: 27px;
+    height: 26px;
+}
+.footer-fav{
+    
+    margin-right: 10px;
+}
+.footer-heading-logo{
+    height: 40px;
+}
+.footer-heading-logo2{
+    height: 10px;
+}
+.footer-heading{
+    color: rgb(113, 124, 172);
+}
+.rgb{
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 700;
+    color: rgb(113, 124, 172);
+}
+.footer>a:hover{
+    text-decoration: underline;
+}
+.blue{
+    color: rgb(27, 56, 187);
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.blue:hover{
+    color: blue;
+    text-decoration: underline;
+}
