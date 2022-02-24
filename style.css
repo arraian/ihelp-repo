@@ -3,7 +3,12 @@
     width:100%;
     margin-left: 30px;
     margin-top: 40px;
+    margin-right: 20px;
 }
+.ihelp-logo{
+    width: 18%;
+}
+
 img{
     width:100px;
     height: 40px;
@@ -28,7 +33,7 @@ nav li:hover{
 }
 nav li a{
     text-decoration: none;
-    color: rgb(3, 97, 151);
+    color: rgb(4, 86, 134);
     font-size: 20px;
 }
 nav >ul >li:hover>ul{
@@ -47,7 +52,7 @@ nav >ul >li:hover>ul{
     width: 63%;
 }
 .number{
-    width: 200px;
+    width: 25%;
     height: 30px;
     padding-left: 40px;
     padding-top: 35px;
@@ -55,6 +60,7 @@ nav >ul >li:hover>ul{
     text-decoration: none;
     font-size: 22px;
     color: rgb(0, 89, 255);
+    text-align: left;
 }
 .number:hover{
     text-decoration: underline;
@@ -64,8 +70,8 @@ nav >ul >li:hover>ul{
     width: 100%;
     margin-left: 30px;
     font-family: 'Poppins', sans-serif;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;;
-    
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    margin-right: 20px;
 }
 h1{
     font-size: 35px;
@@ -135,7 +141,12 @@ h1{
 }
 .com{
     width: 100%;
-    height: 100%;
+    height: 100%; 
+}
+.comm{
+    width: 100%;
+    height: 100px;
+    transform: skewX(-10deg);
 }
 .p-com{
     
