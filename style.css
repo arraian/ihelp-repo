@@ -276,8 +276,8 @@ span:hover{
     border-radius: 10px;
 }
 .clients:hover img{
-    transform: scale(1.2);
-    transition: transform 0.3s ease-in;
+    transform: scale(1.2) rotate(360deg);
+    transition: transform 1s ease-in;
 }
 .footer-area{
     display: flex;
