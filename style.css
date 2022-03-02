@@ -277,8 +277,8 @@ span:hover{
     height: 191px;
     border-radius: 10px;
     overflow: hidden;
-    border-left: 3px solid;
-    border-image: linear-gradient(tomato,rgb(0, 119, 255),purple);
+    border-left: 4px solid;
+    border-image: linear-gradient(tomato,rgb(0, 119, 255),purple,rgb(9, 68, 95),rgba(4, 102, 102, 0.726));
     border-image-slice: 1;
     
 }
