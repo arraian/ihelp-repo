@@ -270,16 +270,23 @@ span:hover{
 .clients{
     width: 25%;
     overflow: hidden;
+   
 }
 .clients img{
     width: 200px;
     height: 191px;
     border-radius: 10px;
     overflow: hidden;
+    border-left: 3px solid;
+    border-image: linear-gradient(tomato,rgb(0, 119, 255),purple);
+    border-image-slice: 1;
+    
 }
 .clients:hover img{
     transform: scale(1.3);
     transition: transform 0.60s ease;
+    
+   
 }
 .clients h3{
     text-align: left;
