@@ -29,7 +29,7 @@ nav li{
    text-align: left;
 }
 nav li:hover{
-    background-color: whitesmoke;
+    background-color: white;
 }
 nav li a{
     text-decoration: none;
@@ -43,7 +43,7 @@ nav >ul >li:hover>ul{
 .dropdown{
     display: none;
     position: absolute;
-    background-color: lightyellow;
+    background-color: white;
 }
 .navbar{
     padding-bottom: 20px;
