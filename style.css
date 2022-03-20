@@ -274,19 +274,13 @@ span:hover{
 }
 .clients img{
     width: 200px;
-    height: 191px;
+    height: 192px;
     border-radius: 10px;
     overflow: hidden;
-    border-left: 4px solid;
-    border-image: linear-gradient(tomato,rgb(0, 119, 255),purple,rgb(9, 68, 95),rgba(4, 102, 102, 0.726));
-    border-image-slice: 1;
-    
 }
 .clients:hover img{
     transform: scale(1.3);
     transition: transform 0.60s ease;
-    
-   
 }
 .clients h3{
     text-align: left;
